@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() { 
+ int lato, area, perimetro;
+
+printf("inserisci il lato del quadrato:\n");
+scanf("%d", &lato);
+
+ area = lato * lato;
+ perimetro = 4 * lato;
+
+printf("area: %d\n", area);
+printf("perimetro: %d\n" , perimetro);     
+
+}
